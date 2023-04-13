@@ -80,11 +80,15 @@ public class Container<T>{
     }
 
     public void remove(int index) {
+        if (this.size == 0){
+            return;
+        }
         if (index != this.size) {
             shiftDownToIndex(index);
         }
-        this.internalArray[this.size] = null;
-        size--;
+        //this.internalArray[this.size] = null;
+
+        this.size--;
     }
 
     private void shiftDownToIndex(int index) {
