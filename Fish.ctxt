@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Fish
+comment1.params=colour\ age\ saltwater
+comment1.target=Fish(java.lang.String,\ int,\ boolean)
+comment2.params=
+comment2.target=Fish()
+comment3.params=
+comment3.target=boolean\ isSaltwater()
+comment4.params=saltwater
+comment4.target=void\ setSaltwater(boolean)
+numComments=5
